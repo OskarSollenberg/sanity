@@ -12,7 +12,7 @@ export default defineConfig({
   projectId: 'fyp5rw86',
   dataset: 'production',
 
-  plugins: [structureTool({structure}), visionTool(), defaultDocumentNode],
+  plugins: [structureTool({structure, defaultDocumentNode}), visionTool()],
 
   schema: {
     types: schemaTypes,
